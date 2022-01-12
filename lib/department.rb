@@ -7,4 +7,8 @@ class Department
     @employees = []
   end
 
-end 
+  def hire(employee)
+    @employees << employee
+  end 
+
+end
