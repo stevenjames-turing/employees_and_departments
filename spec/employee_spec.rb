@@ -2,6 +2,7 @@ require './lib/employee'
 
 RSpec.describe Employee do
   let (:bobbi) {Employee.new({name: "Bobbi Jaeger", age: "30", salary: "100000"})}
+  let (:aaron) {Employee.new({name: "Aaron Tanaka", age: "25", salary: "90000"})}
 
   it 'exists' do
     expect(bobbi).to be_instance_of Employee

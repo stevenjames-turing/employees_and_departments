@@ -14,6 +14,6 @@ class Department
 
   def expense(amount)
     @expenses += amount
-  end 
-
+  end
+  
 end
